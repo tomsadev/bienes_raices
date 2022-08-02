@@ -48,7 +48,7 @@
         $errores[] = "Debes Añadir un Precio";
     }
 
-    if( strlen ($descripcion) < 10 ) {
+    if( strlen ($descripcion) < 50 ) {
         $errores[] = "Debes colocar una descripcion amplia de la propiedad";
     }
 
